@@ -6,7 +6,7 @@ export const state = () => ({
   
      cart: [],
      fooddata: [{
-       name: "Taco bout Eating Tacos",
+       name: "Taco about Eating Tacos",
      deliveryTime: 25,
      meal: ["lunch", "dinner"],
      rating: 4.7,

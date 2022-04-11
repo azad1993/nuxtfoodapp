@@ -30,6 +30,9 @@ export default {};
       rgba(0, 0, 0, 0.65) 100%
     ),
     url(~assets/headerimg.jpg) no-repeat center center scroll;
+    @media screen and (max-width: 768px) { 
+        height: 40vh;
+    }
 }
 
 h1 {

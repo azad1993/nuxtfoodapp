@@ -119,7 +119,7 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  width: 1000px;
+  width: 100%;
   margin: 100px auto;
   display: grid;
   grid-template-columns: 400px 1fr;
@@ -127,18 +127,23 @@ export default {
   grid-column-gap: 60px;
   grid-row-gap: 60px;
   line-height: 2;
+
 }
 
 .image {
   grid-area: 1 / 1 / 2 / 2;
   background-size: cover;
+  
 }
 .details {
   grid-area: 1 / 2 / 2 / 3;
   position: relative;
+ 
+  
 }
 .options {
   grid-area: 2 / 1 / 3 / 2;
+  
 }
     
 </style>
